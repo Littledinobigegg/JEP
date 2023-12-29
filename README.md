@@ -3,3 +3,15 @@
 JEP's smogon fourm page https://www.smogon.com/forums/threads/solomods-megathread.3711007/page-6#post-9880873 
 
 This project is built on pokecrystal and pokecrystal16 by PRET and Vulcandth respectively
+
+# This is tentative but I am going to credit all of the sprite artists on JEPS's showdown git https://github.com/Rezzo64/gen2expansionpack/
+
+Helix Chamber sprites: Balumba, Blastyke, Blottle, Buu, Cactormus, Cheep, Coinpur, Croakozuna, Decilla, Fossils, Gaotora, Gavillain (edited by Albatross), Gawarhed, Gorochu (edited by Martha’s Against Humanity), Gorotora, Guardia, Jabetta (edited by Martha’s Against Humanity), Kolta, Kotora, Luxwan, Nidoreign, Omegadge, Orfry, Pendraken, Ramoose, Ribbito, Sharpoon, Totartle, Trampel, Vulpiii, Weirduck
+
+Albatross sprites: Articuno-G, Blissey, Dugtrio-A, Electivire, Electrode-H, Exeggutor-A, Gentlarva, Glaceon, Golem-A, Hitmontop, Iguanarch, Kleavor, Leafeon, Lickilicky, Marowak-A, Melmetal, Meltan, Moltres-G, Mr. Rime, Muk-A, Ninetales-A, Perrserker, Persian-A, Politoed, Porygon-Z, Pupal, Raichu-A, Rapidash-G, Raticate-A, Rhyperior, Sandslash-A, Sandy Shocks, Scizor, Sirfetch’d, Slowbro-G, Slowking-G, Tangrowth, Toedscool, Toedscruel, Weezing-G, Wiglett, Zapdos-G
+
+Martha’s Against Humanity sprites: Bellignan (with help from PvK), Mimmeo, Sylveon (with help from Albatross)
+
+Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
+
+# I don't know how I want to do the sprites just yet so I may end up not using any of these, it's always better to premptively credit though.
