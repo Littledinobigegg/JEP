@@ -14,6 +14,4 @@ Martha’s Against Humanity sprites: Bellignan (with help from PvK), Mimmeo, Syl
 
 Albatross’ sprites refined by either Martha’s Against Humanity or PvK: Annihilape, Arcanine-H, Bellossom, Carapthor, Kingdra, Magmortar, Magnezone, Ministare, Porygon2, Scream Tail, Squeamata, Tauros-P, Wugtrio
 
-# I don't know how I want to do the sprites just yet so I may end up not using any of these, it's always better to premptively credit though.
-
-My current goal is to simply make JEP into a rom, I'd like to do a few things such as keeping battle anims but alot of small things are up to change
+# My current goal is to simply make JEP into a rom, I'd like to do a few things such as keeping battle anims but alot of small things are up to change
