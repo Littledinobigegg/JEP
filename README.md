@@ -1,4 +1,4 @@
-This is just a github so I can look back at older versions, thank you Lady Misticus and everyone else involved with KEP and JEP for this base
+This is just a github so I can look back at older versions, this is also not the offical git, the link to that is https://github.com/PlagueVonKarma/jep-hack this is a base for me to work on Johto decomp work, please feel free to use anything in here with proper credit to the respective creators. Thank you Lady Misticus and everyone else involved with KEP and JEP for this base
 
 Johto Expansion Pak
 
