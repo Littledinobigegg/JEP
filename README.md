@@ -1,4 +1,6 @@
-This is just a github so I can look back at older versions, this is also not the offical git, the link to that is https://github.com/PlagueVonKarma/jep-hack this is a base for me to work on Johto decomp work, please feel free to use anything in here with proper credit to the respective creators. Thank you Lady Misticus and everyone else involved with KEP and JEP for this base
+This is just a github so I can look back at older versions, this is also not the offical git, the link to that is https://github.com/PlagueVonKarma/jep-hack this is a base for me to work on Johto decomp work, please feel free to use anything in here with proper credit to the respective creators. Thank you Plague Von Karma and everyone else involved with KEP and JEP for this base
+
+The following is the readme for the offical git
 
 Johto Expansion Pak
 
@@ -13,21 +15,48 @@ What falls under "Johto- and Kanto-related" is a Pokemon is the following, so lo
 
     Is a regional variant (Eg. Hisuian Sneasel)
     Evolves from or into a Pokemon (eg. Tangrowth, Honchkrow)
-    Was cut from the final game (eg. Bellignan, Tricules, Phandarin)
+    Was cut from the final game (eg. Bellignan, Tricules, Phandarin; "beta" Pokemon)
+        Or from a future title and was related to a Kanto/Johto Pokemon (eg. Lizargun/Charmada)
     Is a Paradox equivalent (eg. Walking Wake)
     Would qualify for the Kanto Expansion Pak (eg. Omegadge, Melmetal)
 
-Any Pokemon that you can think of that would come under this, is absolutely in. Dex total is 462!
+Any Pokemon that you can think of that would come under this, is absolutely in. Dex total is 466!
 
-Mega Evolutions, Gigantamax forms, etc, are currently not in active consideration.
+With respect to Pokemon from the May 1998 Sprite Cache, creative liberties based on their designs are taken. Given the lack of...anything for these Pokemon, they're heavily customised. Similar philosophies to the Kanto Expansion Pak's RG Asset Leak Pokemon are used.
 
-The Fairy-type does exist.
+Mega Evolutions, Gigantamax forms, etc, are not in active consideration.
 Changes
-New Features
 
     There is now an enby character option named Topaz, purple-themed.
+    You can now name your mother, just as it was in Gold and Silver's prototype stages!
     There is a new Nihon region, based on the 1998 version before it got scrapped for Johto.
     The Fairy-type is now available, though Pokemon are not retroactively changed, per the Kanto Expansion Pak philosophy (you wouldn't want a Fairy-type Granbull pre-split, would you?)
+    Fossil revival is back in town! Get fossils using Rock Smash and revive them at Ruins of Alph or the newly-added Pewter Museum of Science!
+    Breakable rocks now give useful items...
+        1% MAX_REVIVE
+        2% DOME_FOSSIL - Kabuto
+        2% HELIX_FOSSIL - Omanyte
+        2% WING_FOSSIL - Feradactyl
+        2% OLD_AMBER - Decilla
+        2% CLUB_FOSSIL - Xylodon
+        4% STAR_PIECE
+        10% BIG_PEARL
+        18% ETHER
+        24% HARD_STONE
+        24% SOFT_SAND
+        48% PEARL
+        64% BRICK_PIECE
+    Many new Trainer classes, including;
+        RBY classes not in GSC, such as the Rocker, Channeler, and even the beta Firefighter
+        Prototype GSC classes such as the Male Teacher, Sportsman, and Soldier
+        The Painter from FRLG!
+        The Elder from HGSS, featuring the NTSC Sage sprite.
+        Decensor is applied to the Fisher, Beauty, Female Swimmer, Medium, and Sage sprites, to match the Japanese version. Let Tully have a puff!
+    Many evolution stones have been added to accomodate the Pokemon featured here, including the Heart and Poison Stones from the SpaceWorld demo, and the Peat Block!
+    The Fairy Feather from Scarlet and Violet has been added to accomodate the Fairy type.
+    The Antique Pot has been added to accomodate a Shuckle evolution!
+    New Club and Wing Fossils; the former for Xylodon, a May98 Prototype Pokemon, and the latter for Feradactyl, (seemingly) an Aerodactyl pre-evolution from the same prototype.
+    The unused Honey Pot from prototype GSC has been added! 2 days after placing Sweet Honey, you can encounter either Munchlax, Beedrill, Ursaring, or Heracross!
 
 QoL Changes
 
@@ -37,12 +66,19 @@ QoL Changes
     Clock reset procedure is now like vanilla GS, requiring just Down + B.
     Tilesets now handle up to 255 titles (from 192), allowing for slightly nicer maps.
     Can now have up to 17 object events.
+    Gen 6 Experience System!
+    Poke Balls now all have unique palettes.
+    The high friendship evolution threshold is now 170, making Friend Balls sufficient for instant evolution and hatching from Eggs takes minimal effort.
+    Items previously only obtainable via the Time Capsule are now distributed to specific Pokemon (5%: Polkadot Bow Snubbull, TwistedSpoon Kadabra, Metal Powder Ditto/Mimmeo, Light Ball Pikachu; 50%: Lucky Punch Chansey)
+    During the intro, when knowing the PokeGear instructions, you now immediately skip some of the text relating to it, making starting the game slightly less agonising.
 
 Map Changes
 
-In general, there have been many wild encounter tweaks. View this document for details. (will link when hack is in a playable state)
+Numerous new maps are available, featuring new locations, the iconic Sevii Islands, and the Nihon region!
 
-    Johto wild encounters have been changed to be more weighted towards Johto Pokemon; eg. Murkrow is available about Ecruteak at night, Misdreavus largely replaces Gastly, etc.
+Additionally, there have been many wild encounter tweaks. View this document for details. (will link when hack is in a playable state)
+
+    Johto wild encounters have been changed to be more weighted towards Johto Pokemon; eg. Murkrow is available about Ecruteak at night, Misdreavus largely replaces Gastly, etc. Levels have been adjusted.
     Kanto wild encounters have generally higher levels to aid in improving the level curve.
     Rock Smash now has variable and larger wild data, featuring rare, location-based Pokemon (eg. Corsola on the shore), and level adjustments to make them more appropriate.
     Viridian Forest has been restored.
@@ -50,37 +86,71 @@ In general, there have been many wild encounter tweaks. View this document for d
     Cerulean Cave has been restored, complete with a Mewtwo fight!
     The Kanto Safari Zone map from the prototype has been restored.
     The prototype Lake of Rage village has been restored, complete with an Evolution Stone shop and Trader NPC! In general, it's themed around Pokemon evolution.
-
-Item Changes
-
-    Many evolution stones have been added to accomodate the Pokemon featured here, including the Heart and Poison Stones from the SpaceWorld demo!
-    The Fairy Feather from Scarlet and Violet has been added to accomodate the Fairy type.
+    The Pokemon Communications Centre from JP GSC has been added and tweaked into a Regional Variant Trade hub, increasing with badge count.
+        The GS Ball event has been restored, now being obtainable after beating the Elite Four and trying to exit the building.
+        The Egg Ticket and Eon Mail events have been restored, now being associated with Buena's Password. Redeeming the Egg Ticket gives you an Odd Egg with the usual Pokemon pool and Shiny chances; this is soft resettable if you like that sort of thing.
+        Additionally, old lore relating to the area has now been restored, including something about the Unown!
 
 Credits
 
-    Plague von Karma (Director, Kanto Expansion Pak Founder, Programming, Maps)
-    Martha's Against Humanity (Kanto Expansion Pak ROM Hack Creator, Programmer)
-    Zeta_Null (Repository Owner, Spriter, Programming)
-    LadyMisticus (Documentation, Programming, Mapping)
+As the open source nature of this project implies, people are free to reuse what's here for their own ends, so long as credit is given to this hack and those who worked on what you reuse. Additionally, we strongly urge you to make any projects using JEP's content open source. JEP strongly supports the free software movement and its four essential freedoms. If you have any questions on the topic of content reuse, contact @ plague_von_karma on Discord.
+
+If you use our implementations of anything at all, it is encouraged to submit Pull Requests for bug fixes if you find any issues! We very much appreciate them!
+Development Credits
+
+    Plague von Karma (Director, Kanto Expansion Pak Founder, Programming, Maps, Stat Exp. Display code)
+    Martha's Against Humanity (Kanto Expansion Pak ROM Hack Creator, Programmer, Spriter)
+    Zeta_Null (Repository Creator, Spriter, Programming, Music)
+    LadyMisticus (Documentation, Programming, Mapping, Spriter)
     thornAvery (Programming)
+    LuciShrimp (Music, TBA)
     pret et al (LOTS of Tutorials that we used to get this off the ground!)
     Wiz (Nihon Pokemon names)
-    Rezzo (GSC-specific advice)
-    Old Dance Jacket (GSC-specific advice)
-    Minamitoku (SW97 demo translation commentary here)
+    Rezzo (GSC-specific advice, Showdown Mod assistance)
+    Old Dance Jacket (GSC-specific advice, Showdown Mod assistance)
+    ausma (KEP Developer, Showdown Mod assistance, legacy)
+    Shellnuts (Optimizing the Footprints code)
+    Shawesome (Spriter)
+    zuperZACH (Spriter)
 
 Sprite Credits
+JEP Developers
 
-    Zeta_Null: Topaz sprites, numerous tileset bits, Omegadge,
-    Martha's Against Humanity: Shi-Shi
-    EyeDonutz: Walking Wake
-    nuuk: (TBD)
+JEP-affiliated spriters require sprites to be used with direct credit for non-commerical purposes. Credit the artist in any case of using them.
+
+    Zeta_Null: Topaz sprites, numerous tileset bits, Omegadge, Qatu, Phandarin, Stromen, Lickilord
+    Martha's Against Humanity: Flutter Mane, Hyoshu-Yang, Hyoshu-Yin, Fossil Aerodactyl, Fossil Kabutops
+    zuperZACH: Clodsire (front), Mismagius, Alolan Vulpix, Alolan Ninetales, Hirsuswine
+    Shawesome: Alolan Geodude
+    EyeDonutz: Walking Wake (front/back, title)
+    Plague von Karma: Overworld Arbok, Koffing, Voltorb, Gengar, Diglett, and Cat sprites, adapted from the slot machine's sprites (originally made for KEP).
+    LadyMisticus: Sprite edits of Imposter Oak, Archer, Ariana, Prof.Blue, Giovanni (both), Green; Cal, Blaine (original)
+
+Unaffiliated
+
+    nuuk: Azurill, Electivire, Farigiraf, Glaceon, Honchkrow, Leafeon, Magmortar, Magnezone, Mamoswine, Porygon-Z, Sylveon, Togekiss, Wyrdeer, Clodsire (back)
+    Scarlax, Pix, BloodlessNX, Kam, Poket, BimbelyGimbly: Animated sprites from Pokemon October: Bellignan, Caretorker (Adbarstork), Inoshika (Aggroswine), Bipulla, Sonegg (Clefling), Kolta (Coalta), Coinpur, Dodaerie, Bundra (Germifrost), Kiwooked (Kiwacki), Eucala (Koalyptus), Trebir, Burgela, Gorotora, Pockle (Shuqlour, edited by Martha), Moibelle, Molambino, Dokuroar (Necrorex), Orfry, Blossomole (Petamole), Smujj
+        Gorotora is edited from RacieBeep's Yellow sprite in the Helix Chamber PokeThon ROM Hack. A full list of Helix Chamber sprites are available here. Helix Chamber spriters have a "must credit" policy.
+    SoupPotato et al: Various sprites from Pokemon Gold & Silver '97 Reforged; Palssio (Cruize), Pressio (Aquallo) Donmarin (Aquarius), Grenmar (Bombsheal, with edits), Jungela (Gelania), Elebebi (Elebabe), Mimmeo (Metto), Kazappelin (Numbpuff), Disturban (Turban), Angore (Anchorage), Trebir (Mallody), Folage (Silkane)
     SCMidna: Munchlax
-    Pokemon October et al: Bellignan, Caretorker, Inoshika, Bipulla, Sonegg, Kolta, Coinpur, Dodaerie, Bundra, Kiwooked, Koalyptus, Trebir
+    SageDeoxys: Iron Bundle, Raging Bolt, Scream Tail, Dudunsparce (both forms)
+    Pokets: Terrados
     Tom Wang: Gold/Chris running sprite
     Seasick: Kris running sprite
-    Ferropexola/aforward9600: Time of day-based tileset palette code
+    Pigu-A, RevoSucks, walle303 - Contributors to Pokemon Anniversary Red's repository, where we reused the Green/FeMC sprites.
 
+Other Sources
+
+    Nob Ogasawara (Many prototype Pokemon names)
+    ImportedCheese (Japanese speaker who named Hyoshu)
+    Minamitoku (SW97 demo translation commentary here)
+    ZoomTen - Honey Pot & Honey Grandma features from Pokemon October, commits here, here, and here. Safari Game restoration [here](https://github.com/pokeachromicdevs/pokeoctober/commit/2ff835730b2a61a757ad67f13e50480c965d2a0c}.
+    Ferropexola/aforward9600: Time of day-based tileset palette code
+    Rangi42/polishedcrystal: Decoration shop script
+    Nayru62 (Crystal Legacy) - DVs & Hidden Power display code
+    SoupPotato - Move Animations and Pallettes here and here.
+
+Original readme proceeding...
 16-bit index expansion for Crystal
 
 This repository contains a modified Pokémon Crystal game, updated to handle 16-bit indexes. The main goal of this project is to create a reusable system that ROM hacks can use to bring 16-bit indexes into their games.
@@ -110,4 +180,4 @@ Q2: Can I use this engine for my own ROM hack?
 A2: Of course; that's what it was made for. I will try make it as easy as possible to port to existing or new ROM hacks; instructions to do so will be in the wiki. All I can ask you for is that, just like this engine was openly available for you to use, you make your hack's code openly available as well — quoting some of the text in SQLite's copyright disclaimer, "may you share freely, never taking more than you give".
 
 Q3: What's this engine's new limit on indexes?
-A3: The theoretical limit is 65,534, minus a couple of "special" indexes used by the game for specific purposes (such as the value that indicates that a Pokémon is inside an egg). However, there are several limitations that will probably prevent you from ever reaching that limit. For starters, you can't fit 65,534 of anything inside a ROM bank! The index work is done, and I'll try to remove any hurdles that would render that work useless; however, if you want to push the limits of the hardware and add 20,000 new Pokémon, you'll find yourself against a technical challenge that will go beyond indexes.
+A3: The theoretical limit is 65,534, minus a couple of "special" indexes used by the game for specific purposes (such as the value that indicates that a Pokémon is inside an egg). However, there are several limitations that will probably prevent you from ever reaching that limit. For starters, you can't fit 65,534 of anything inside a ROM bank! The index work is done, and I'll try to remove any hurdles that would render that work useless; however, if you want to push the limits of the hardware and add 20,000 new Pokémon, you'll find yourself against a technical challenge that will go beyond indexes.such as the value that indicates that a Pokémon is inside an egg). However, there are several limitations that will probably prevent you from ever reaching that limit. For starters, you can't fit 65,534 of anything inside a ROM bank! The index work is done, and I'll try to remove any hurdles that would render that work useless; however, if you want to push the limits of the hardware and add 20,000 new Pokémon, you'll find yourself against a technical challenge that will go beyond indexes.
